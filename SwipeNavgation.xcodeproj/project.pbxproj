@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3F342B27B3006B002E2ED9 /* MainOverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3F342A27B3006B002E2ED9 /* MainOverViewController.storyboard */; };
+		0C3F342D27B3015E002E2ED9 /* ThirdViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3F342C27B3015E002E2ED9 /* ThirdViewController.storyboard */; };
+		0C3F343027B30196002E2ED9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F342F27B30196002E2ED9 /* ThirdViewController.swift */; };
 		0C7565DF27B2BDDB00B76AB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7565DE27B2BDDB00B76AB6 /* AppDelegate.swift */; };
 		0C7565E127B2BDDB00B76AB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7565E027B2BDDB00B76AB6 /* SceneDelegate.swift */; };
 		0C7565E327B2BDDB00B76AB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7565E227B2BDDB00B76AB6 /* MainViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3F342A27B3006B002E2ED9 /* MainOverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainOverViewController.storyboard; sourceTree = "<group>"; };
+		0C3F342C27B3015E002E2ED9 /* ThirdViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdViewController.storyboard; sourceTree = "<group>"; };
+		0C3F342F27B30196002E2ED9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0C7565DB27B2BDDB00B76AB6 /* SwipeNavgation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeNavgation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7565DE27B2BDDB00B76AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C7565E027B2BDDB00B76AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3F342E27B30167002E2ED9 /* ThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F342C27B3015E002E2ED9 /* ThirdViewController.storyboard */,
+				0C3F342F27B30196002E2ED9 /* ThirdViewController.swift */,
+			);
+			path = ThirdViewController;
+			sourceTree = "<group>";
+		};
 		0C7565D227B2BDDB00B76AB6 = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +84,11 @@
 				0C7565DE27B2BDDB00B76AB6 /* AppDelegate.swift */,
 				0C7565E027B2BDDB00B76AB6 /* SceneDelegate.swift */,
 				0C7565E427B2BDDB00B76AB6 /* Main.storyboard */,
+				0C3F342A27B3006B002E2ED9 /* MainOverViewController.storyboard */,
 				0C7565E227B2BDDB00B76AB6 /* MainViewController.swift */,
 				0C7565FA27B2F17B00B76AB6 /* FirstViewController */,
 				0C7565FC27B2F1DA00B76AB6 /* SecondViewController */,
+				0C3F342E27B30167002E2ED9 /* ThirdViewController */,
 				0C7565FB27B2F1A900B76AB6 /* Extentions */,
 				0C7565E727B2BDDC00B76AB6 /* Assets.xcassets */,
 				0C7565E927B2BDDC00B76AB6 /* LaunchScreen.storyboard */,
@@ -166,8 +183,10 @@
 			files = (
 				0C7565EB27B2BDDC00B76AB6 /* LaunchScreen.storyboard in Resources */,
 				0C7565F527B2C11600B76AB6 /* SecondViewController.storyboard in Resources */,
+				0C3F342B27B3006B002E2ED9 /* MainOverViewController.storyboard in Resources */,
 				0C7565E827B2BDDC00B76AB6 /* Assets.xcassets in Resources */,
 				0C7565F327B2C02D00B76AB6 /* FirstViewController.storyboard in Resources */,
+				0C3F342D27B3015E002E2ED9 /* ThirdViewController.storyboard in Resources */,
 				0C7565E627B2BDDB00B76AB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +201,7 @@
 				0C7565FE27B2F22200B76AB6 /* SecondViewController.swift in Sources */,
 				0C7565E327B2BDDB00B76AB6 /* MainViewController.swift in Sources */,
 				0C7565DF27B2BDDB00B76AB6 /* AppDelegate.swift in Sources */,
+				0C3F343027B30196002E2ED9 /* ThirdViewController.swift in Sources */,
 				0C7565E127B2BDDB00B76AB6 /* SceneDelegate.swift in Sources */,
 				0C7565F927B2C45500B76AB6 /* FirstViewController.swift in Sources */,
 				0C7565F727B2C31000B76AB6 /* UIStoryboard+VC.swift in Sources */,

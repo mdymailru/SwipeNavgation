@@ -17,8 +17,12 @@ class SecondViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+    }
+    
+    @IBAction func tapGotoThirdVC(_ sender: UIButton) {
+        let vc = ThirdViewController.initFromItsStoryboard()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 
